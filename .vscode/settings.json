@@ -1,0 +1,10 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "editor.tabSize": 4,
+    "runOnStart.commands": [
+        {
+          "command": "workbench.action.tasks.runTask",
+          "args": "Run make onstartup"
+        }
+      ]
+}
