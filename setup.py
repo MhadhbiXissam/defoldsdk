@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="defoldsdk",
-    version="1.3.2",
+    version="1.3.3",
     author="issam Mhadhbi",
     author_email="mhadhbixissam@gmail.com",
     description="Defold protobuff compiled to python package",
