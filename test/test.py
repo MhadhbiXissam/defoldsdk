@@ -1,0 +1,1 @@
+from defoldsdk import sdk

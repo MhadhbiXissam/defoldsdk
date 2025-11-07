@@ -53,7 +53,7 @@ class SdkGenDoc:
     def parse_type(typ):
         return {"enums": SdkGenDoc.get_type_enums(typ), "fields": SdkGenDoc.parse_fields(typ)}
 
-    def gen_doc(self, mdfile = "doc/README.md"):
+    def gen_doc(self, mdfile = "docs/README.md"):
         markdown_lines = ["# SDK Protobuf Documentation\n"]
         for typ_name, typ in sdk._asdict().items():
             info = SdkGenDoc.parse_type(typ)
@@ -76,8 +76,7 @@ class SdkGenDoc:
 
         with open(mdfile, "w") as f:
             f.write("\n".join(markdown_lines))
-        print("Markdown documentation generated: sdk.md")
 
 
 if __name__ == "__main__":
-    SdkGenDoc().gen_doc(mdfile = "doc/README.md")
+    SdkGenDoc().gen_doc(mdfile = "docs/README.md")

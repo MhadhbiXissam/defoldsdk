@@ -2,3 +2,5 @@ twine
 protobuf
 requests
 build
+setuptools 
+wheel

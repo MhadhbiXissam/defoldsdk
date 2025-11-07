@@ -1,0 +1,106 @@
+.
+├── defoldsdk
+│   ├── ddf
+│   │   ├── ddf_extensions_pb2.py
+│   │   ├── ddf_math_pb2.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── ddf_extensions_pb2.cpython-310.pyc
+│   │       ├── ddf_math_pb2.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── engine
+│   │   ├── engine_ddf_pb2.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── engine_ddf_pb2.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── gameobject
+│   │   ├── gameobject_ddf_pb2.py
+│   │   ├── __init__.py
+│   │   ├── lua_ddf_pb2.py
+│   │   ├── properties_ddf_pb2.py
+│   │   └── __pycache__
+│   │       ├── gameobject_ddf_pb2.cpython-310.pyc
+│   │       ├── __init__.cpython-310.pyc
+│   │       ├── lua_ddf_pb2.cpython-310.pyc
+│   │       └── properties_ddf_pb2.cpython-310.pyc
+│   ├── gamesys
+│   │   ├── atlas_ddf_pb2.py
+│   │   ├── buffer_ddf_pb2.py
+│   │   ├── camera_ddf_pb2.py
+│   │   ├── gamesys_ddf_pb2.py
+│   │   ├── gui_ddf_pb2.py
+│   │   ├── __init__.py
+│   │   ├── label_ddf_pb2.py
+│   │   ├── mesh_ddf_pb2.py
+│   │   ├── model_ddf_pb2.py
+│   │   ├── physics_ddf_pb2.py
+│   │   ├── __pycache__
+│   │   │   ├── atlas_ddf_pb2.cpython-310.pyc
+│   │   │   ├── buffer_ddf_pb2.cpython-310.pyc
+│   │   │   ├── camera_ddf_pb2.cpython-310.pyc
+│   │   │   ├── gamesys_ddf_pb2.cpython-310.pyc
+│   │   │   ├── gui_ddf_pb2.cpython-310.pyc
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── label_ddf_pb2.cpython-310.pyc
+│   │   │   ├── mesh_ddf_pb2.cpython-310.pyc
+│   │   │   ├── model_ddf_pb2.cpython-310.pyc
+│   │   │   ├── physics_ddf_pb2.cpython-310.pyc
+│   │   │   ├── sound_ddf_pb2.cpython-310.pyc
+│   │   │   ├── sprite_ddf_pb2.cpython-310.pyc
+│   │   │   ├── texture_set_ddf_pb2.cpython-310.pyc
+│   │   │   └── tile_ddf_pb2.cpython-310.pyc
+│   │   ├── sound_ddf_pb2.py
+│   │   ├── sprite_ddf_pb2.py
+│   │   ├── texture_set_ddf_pb2.py
+│   │   └── tile_ddf_pb2.py
+│   ├── graphics
+│   │   ├── graphics_ddf_pb2.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── graphics_ddf_pb2.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-310.pyc
+│   ├── render
+│   │   ├── font_ddf_pb2.py
+│   │   ├── __init__.py
+│   │   ├── material_ddf_pb2.py
+│   │   ├── __pycache__
+│   │   │   ├── font_ddf_pb2.cpython-310.pyc
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── material_ddf_pb2.cpython-310.pyc
+│   │   │   └── render_ddf_pb2.cpython-310.pyc
+│   │   └── render_ddf_pb2.py
+│   ├── resource
+│   │   ├── __init__.py
+│   │   ├── liveupdate_ddf_pb2.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── liveupdate_ddf_pb2.cpython-310.pyc
+│   │   │   └── resource_ddf_pb2.cpython-310.pyc
+│   │   └── resource_ddf_pb2.py
+│   └── script
+│       ├── ddf_script_pb2.py
+│       ├── __init__.py
+│       ├── lua_source_ddf_pb2.py
+│       ├── __pycache__
+│       │   ├── ddf_script_pb2.cpython-310.pyc
+│       │   ├── __init__.cpython-310.pyc
+│       │   ├── lua_source_ddf_pb2.cpython-310.pyc
+│       │   └── sys_ddf_pb2.cpython-310.pyc
+│       └── sys_ddf_pb2.py
+├── docs
+│   └── README.md
+├── gendoc.py
+├── LICENSE
+├── Makefile
+├── README.md
+├── requirements.txt
+├── setup.py
+├── test
+├── test.py
+└── tree.txt
+
+
